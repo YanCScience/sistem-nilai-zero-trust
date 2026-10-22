@@ -1,0 +1,16 @@
+{
+  "name": "sistem-nilai-zero-trust",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "seed": "node db/seed.js",
+    "start": "node run-all.js",
+    "test": "node tests/run-tests.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.0",
+    "http-proxy-middleware": "^3.0.7",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
